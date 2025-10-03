@@ -13,7 +13,7 @@ public class SearchMatrix {
             if(matrix[r][c] > target){
                 c--; // reduce column if it is greater than target
             }
-            else {
+            else { // else we go down the columns to look for our element
                 r++;
             }
         }
